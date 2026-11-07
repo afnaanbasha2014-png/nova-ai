@@ -1,0 +1,10 @@
+NOVA AI — START HERE
+
+1) Read README.md first.
+2) Deploy app.py using GitHub + Streamlit Community Cloud.
+3) Add HF_TOKEN through Streamlit App settings → Secrets (never commit the real token).
+4) The chat and image tabs use hosted models and may incur provider charges.
+5) To train a small GPT from scratch, upload train_minigpt.py to Google Colab and run:
+       !python train_minigpt.py --steps 2500
+
+Honest note: the trained mini-GPT is a text-continuation learning model, not a ChatGPT-level assistant. The shareable web app uses a hosted open-weight chat model and a separate image model.
